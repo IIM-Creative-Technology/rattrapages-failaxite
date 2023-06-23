@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -57,29 +58,6 @@
   height: 32px;
 }
 
-@media (max-width: 1300px) {
-  .nav-texts {
-    display: none;
-  }
-  .tagline {
-    margin-top: 50px;
-    margin-left: 60px;
-    width: 80%;
-    height: 80%;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-  }
-  .socials-logo {
-    margin-top: 100px;
-    margin-left: 200px;
-    width: 120px;
-    height: 120px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-}
 .first-title {
   margin-top: 159px;
   margin-left: 148px;
@@ -115,4 +93,97 @@
   border-radius: 4px;
   margin-top: 40px;
   margin-left: 148px;
+}
+
+.third-class {
+  background-image: url("../media/ismael-trevino-NDyuR4Huig8-unsplash.png");
+  background-size: cover;
+  z-index: 1;
+}
+
+.second-title {
+  margin-top: 121px;
+  margin-left: 1148px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 52px;
+  color: #FFFFFF;
+  background-clip: padding-box; /* Limite le background à l'intérieur du padding */
+}
+
+.second-title2 {
+  margin-left: 1178px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 52px;
+  color: #FFFFFF;
+  background-clip: padding-box; /* Limite le background à l'intérieur du padding */
+}
+
+.second-subtitle {
+  margin-top: 40px;
+  margin-left: 1161px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: #FFFFFF;
+  margin-left: 1178px;
+}
+
+.second-info {
+  background-color: #fff;
+  color: #B2D234;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  padding: 9px 30px;
+  border-radius: 4px;
+}
+
+.title-container {
+  padding: 1px 1px;
+}
+
+@media (max-width: 1300px) {
+  .nav-texts {
+    display: none;
+  }
+  .tagline {
+    margin-top: 50px;
+    margin-left: 60px;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .socials-logo {
+    margin-top: 100px;
+    margin-left: 200px;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .second-title,
+  .second-title2,
+  .second-subtitle,
+  .second-info {
+    margin-top: 158px;
+    margin-left: 54px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #third-page div {
+    border: 1px solid #2d2d2d;
+    display: flex;
+    background-color: rgba(178, 210, 52, 0.8);
+    margin-left: 20rem;
+    border: 1px solid blue;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }/*# sourceMappingURL=style.css.map */
