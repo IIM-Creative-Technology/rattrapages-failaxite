@@ -245,7 +245,21 @@
   width: 75%;
 }
 
-.menu .best-offer {
+.best-offer::before {
+  content: "La plus vendue !";
+  position: absolute;
+  top: -18px;
+  right: 0px;
+  width: 100px;
+  height: 17px;
+  background-color: #B2D234;
+  color: white;
+  font-weight: 400;
+  font-size: 15px;
+  text-align: center;
+}
+
+.best-offer {
   border: 1px solid #B2D234;
   padding: 12px;
   height: 150px;
