@@ -435,8 +435,7 @@ form {
   max-width: 400px;
   margin: 0 auto;
   font-family: Arial, sans-serif;
-  margin-top: 14px;
-  margin-left: -44px;
+  margin-right: 600px;
 }
 
 .form-content {
@@ -482,7 +481,7 @@ input[type="motivation"], textarea {
   margin-top: 8px;
 }
 
-button {
+.formbutton {
   margin-top: 35.67px;
   margin-left: 200.5px;
   display: block;
@@ -494,9 +493,10 @@ button {
   border: none;
   border-radius: 3px;
   cursor: pointer;
+  text-align: center;
 }
 
-button:hover {
+.formbutton:hover {
   background-color: #45a049;
 }
 
@@ -522,10 +522,7 @@ button:hover {
   font-weight: 300;
   font-size: 18px;
   color: #606060;
-  text-align: center;
   margin-top: 30px;
-  width: 459px;
-  height: 76px;
 }
 
 
@@ -712,7 +709,7 @@ ul {
     }
   
     .fourth-subtitle {
-      margin-left: 0;
+      margin-left: 20px;
     }
   
     .list-menu {
@@ -732,16 +729,94 @@ ul {
     .content {
       margin-left: 20px;
     }
+
   
     .fourth-droite {
-      margin-left: 0;
+      margin-left: auto;
+      margin-right: auto;
       margin-top: 30px;
+      text-align: center;
     }
   
     .fourth-droite p {
       width: 100%;
       max-width: none;
-      margin-left: 0;
+      margin-left: auto;
+      margin-right: auto;
     }
 
+    .passer {
+      margin-left: 100px;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .six-gauche img {
+      margin-left: -200px;
+      width: 160%;
+      height: 160%;
+    }
+
+    .six-droite {
+      margin-top: 700px;
+      margin-left: 20px;
+      width: auto;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .form {
+      height: auto;
+      width: auto;
+      margin-left: 100px;
+    }
+
+    .form-content {
+      margin-top: 25px;
+    }
+
+    .form-line {
+      margin-top: 10px;
+      margin-left: 1px;
+      
+    }
+
+    .formbutton {
+      margin-left: 0px;
+      margin-top: 30px;
+    }
+
+    label {
+      font-size: 15px;
+    }
+  
+    .space-left {
+      margin-left: 25px;
+    }
+  
+    input[type="text"],
+    textarea {
+      height: 30px;
+      width: 100px;
+    }
+
+    input[type="email"] {
+      width: 350px;
+    }
+
+
+    .footer {
+      margin-top: 200px;
+    }
+    .column {
+      width: 100%;
+      margin-top: 50px;
+    }
+
+
+
+  
   }
