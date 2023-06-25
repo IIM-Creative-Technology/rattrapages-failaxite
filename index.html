@@ -22,6 +22,18 @@
                 <a href="#">Contact</a>
                 <button class="commander">Commander</button>
             </div>
+            <div id="burger-menu">
+                <span></span>
+              </div>
+            <div id="menu">
+                <ul>
+                  <li><a href="#">Accueil</a></li>
+                  <li><a href="#">Qui sommes-nous ?</a></li>
+                  <li><a href="#">Menu</a></li>
+                  <li><a href="#">Contact</a></li>
+                  <li><a href="#">Commander</a></li>
+                </ul>
+            </div>
         </div>
     <header>
         <img class="tagline" src="media/Tagline.png" alt="logo-header">
@@ -277,6 +289,17 @@
                 </div>
             </div>
         </footer>
-        
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+        <script>
+
+        var burgerMenu = document.getElementById('burger-menu');
+        var overlay = document.getElementById('menu');
+        burgerMenu.addEventListener('click',function(){
+        this.classList.toggle("close");
+        overlay.classList.toggle("overlay");
+        });
+
+        </script>
 </body>
 </html>
